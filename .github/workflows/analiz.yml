@@ -21,19 +21,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install TA-Lib from source (patched)
-        run: |
-          cd /tmp
-          wget -q http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
-          tar -xzf ta-lib-0.4.0-src.tar.gz
-          cd ta-lib
-          # Fix gen_code Makefile for modern automake/glibc
-          sed -i 's/\\.Tpo/\\.Plo/g' src/tools/gen_code/Makefile.in
-          sed -i 's/\\.Tpo/\\.Plo/g' src/tools/gen_code/Makefile.am
-          ./configure --prefix=/usr
-          make -j$(nproc)
-          sudo make install
-          cd /tmp && rm -rf ta-lib ta-lib-0.4.0-src.tar.gz
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
