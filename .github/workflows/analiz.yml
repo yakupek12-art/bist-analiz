@@ -1,3 +1,16 @@
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: 'Hisse kodu (orn: ASELS.IS)'
+        required: true
+        type: string
+      skip_veri:
+        description: 'Veri cekmeyi atla'
+        type: boolean
+        default: false
+
+name: BIST Finansal Analiz
 jobs:
   analiz:
     runs-on: ubuntu-latest
