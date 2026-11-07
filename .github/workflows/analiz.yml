@@ -1,127 +1,32 @@
-name: Günlük BIST Analiz Otomasyonu
-
-on:
-  schedule:
-    # TR 08:30 (UTC 05:30) - Sabah açılış öncesi
-    - cron: '30 5 * * 1-5'
-    # TR 19:00 (UTC 16:00) - Kapanış sonrası
-    - cron: '0 16 * * 1-5'
-  workflow_dispatch: {}  # Manuel tetikleme
-
-permissions:
-  contents: read
-  actions: read
-
 jobs:
-  veri-topla:
-    name: Veri Toplama ve Analiz
+  analiz:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    env:
-      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      WATCHLIST: ${{ secrets.WATCHLIST }}
-      MODEL: ${{ secrets.MODEL }}
     steps:
-      - name: Repository'yi checkout et
-        uses: actions/checkout@v4
-
-      - name: Python 3.13 kur
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
-          cache: 'pip'
-
-      - name: Sistem bağımlılıkları kur
+          python-version: '3.11'
+      - name: Install TA-Lib (Ubuntu 24.04)
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq curl python3-venv
-
-      - name: Python paketlerini kur
-        run: |
-          python -m pip install --upgrade pip -q
-          pip install isyatirimhisse pdfplumber requests pyyaml -q
-
-      - name: TA-Lib kur (sistem paketi)
-        run: |
-          sudo apt-get install -y -qq libta-lib-dev
-          pip install TA-Lib -q
-
-      - name: Veri toplama scriptini çalıştır
-        run: |
-          python scripts/gunluk_veri_topla.py
-
-      - name: Analiz scriptini çalıştır
-        run: |
-          python scripts/gunluk_analiz.py
-
-      - name: Telegram bildirimi gönder
-        if: always()
-        run: |
-          python scripts/telegram_gonder.py
-
-      - name: Analiz raporunu artifact olarak yükle
-        uses: actions/upload-artifact@v4
+          sudo apt-get install -y -qq libta-lib0-dev
+      - uses: actions/cache@v4
         with:
-          name: analiz-raporlari
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+      - run: pip install -r requirements.txt
+      - env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: python run_analiz.py "${{ github.event.inputs.symbol }}" ${{ github.event.inputs.skip_veri && '--skip-veri' || '' }}
+      - name: Send Telegram (opsiyonel)
+        if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram_gonder.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rapor-${{ github.event.inputs.symbol }}
           path: analiz-arşivi/
           retention-days: 30
-
-  kap-pdf-isle:
-    name: KAP PDF İşleme
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    needs: veri-topla
-    steps:
-      - name: Repository'yi checkout et
-        uses: actions/checkout@v4
-
-      - name: Python 3.13 kur
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-
-      - name: Python paketlerini kur
-        run: |
-          pip install pdfplumber pymupdf requests -q
-
-      - name: KAP PDF'lerini indir ve işle
-        run: |
-          python scripts/kap_pdf_isle.py
-
-      - name: Çıktıları yükle
-        uses: actions/upload-artifact@v4
-        with:
-          name: kap-dip-notlari
-          path: analiz-calisma/*/kap-dip-notlar/
-          retention-days: 30
-
-  kural-motoru:
-    name: Kural Motoru ve Bildirim
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    needs: [veri-topla, kap-pdf-isle]
-    steps:
-      - name: Repository'yi checkout et
-        uses: actions/checkout@v4
-
-      - name: Python 3.13 kur
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-
-      - name: Python paketlerini kur
-        run: |
-          pip install pyyaml requests -q
-
-      - name: Kural motorunu çalıştır
-        run: |
-          python scripts/kural_motoru.py
-
-      - name: Telegram bildirimi gönder
-        if: always()
-        run: |
-          python scripts/telegram_bildirim.py
