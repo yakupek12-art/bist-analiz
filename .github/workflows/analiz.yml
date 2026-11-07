@@ -11,6 +11,7 @@ on:
         default: false
 
 name: BIST Finansal Analiz
+
 jobs:
   analiz:
     runs-on: ubuntu-latest
@@ -20,10 +21,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install TA-Lib (Ubuntu 24.04)
+      - name: Install TA-Lib from source
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libta-lib0-dev
+          cd /tmp
+          wget -q http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+          tar -xzf ta-lib-0.4.0-src.tar.gz
+          cd ta-lib
+          ./configure --prefix=/usr
+          make -j$(nproc)
+          sudo make install
+          cd /tmp && rm -rf ta-lib ta-lib-0.4.0-src.tar.gz
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
