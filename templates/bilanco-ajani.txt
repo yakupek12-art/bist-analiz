@@ -1,0 +1,38 @@
+Bilanco verileri:
+
+=== BILANCO CSV ===
+{bilanco_csv}
+
+=== FINANSAL DERINLIK ===
+{finansal_derinlik}
+
+=== KAP DIP NOTLARI ===
+{kap_dip_notlari}
+
+Cikti formati:
+## KATMAN 9: BILANCO DERIN OKUMA (5-10 YIL)
+
+### TABLO 1: CIRO -> NET KAR (5-10 YIL)
+| Yil | Ciro | YoY D%% | Brut Kar | Brut Marj %% | Esas Faaliyet K | Faaliyet Marj %% | FAVOK | FAVOK Marj %% | Net Kar | Net Marj %% | YoY D%% |
+
+### TABLO 2: MARJ TRENDI (5 YIL)
+| Yil | Brut Marj %% | Esas Faaliyet Marj %% | FAVOK Marj %% | Net Marj %% | Diger Faaliyet Gelirleri / Ciro %% |
+
+### TABLO 3: BORCLANMA VE LIKIDITE (5 YIL, Mn TL)
+| Yil | Kisa Vadeli Borc | Uzun Vadeli Borc | Toplam Fin. Borc | Nakit | Net Borc | Net Borc/FAVOK | Cari Oran | Nakit/FAVOK |
+
+### TABLO 4: NAKIT AKISI (5 YIL, Mn TL)
+| Yil | CFO | Capex | FCF | FCF/Net Kar | FCF Marj %% | Temettu | Sermaye Artirimi | Borclanma (Net) |
+
+### TABLO 5: ONEMLI ORANLAR (5 YIL)
+| Oran | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | Trendi | Sektor Medyan |
+
+### TABLO 6: KAP DIP NOTLARI (Kritik Bulgular)
+| # | Dip Not Konusu | Yil | Ozet | Mali Etki | Risk |
+
+### BILANCO ANALITIMI (Ne Anliyorum?)
+> [3-5 paragraf: Ciro/Kar trendi, Marj nedenleri, Borc/Nakit durumu, Kritik bulgu]
+
+### BILANCO KARARI
+[SAGLIKLI] / [ORTA] / [ZAYIF]
+Gercekce: ......

@@ -1,0 +1,46 @@
+Teknik veriler:
+
+=== TEKNIK VERILER ===
+{teknik_veri}
+
+=== FIYAT VERISI ===
+{fiyat_veri}
+
+=== HACIM PROFILI ===
+{hacim_profili}
+
+Cikti formati:
+## KATMAN 10: TEKNIK ANALIZ VE POZISYON BELIRLEME
+
+### TREND ANALIZI (Coklu Zaman Dilimi)
+| Zaman Dilimi | Trend | SMA50 vs SMA200 | MACD | ADX |
+
+### DESTEK VE DIRENC SEVIYELERI
+| Seviye | Tip | Fiyat | Gucluk | Test Sayisi |
+
+### MOMENTUM INDIKATORLERI
+| Indikator | Deger | Sinyal |
+
+### FIBONACCI RETRACEMENT / EXTENSION
+| Seviye | Fiyat | Tip |
+
+### GIRIS / CIKIS STRATEJISI (UZUN VADHELI VALUE INVESTING)
+| Bolge | Fiyat Araligi | Pozisyon %% | Sebep | Oncelik |
+
+### CIKIS SEVIYELERI (Sell Zones)
+| Bolge | Fiyat Araligi | Pozisyon %% | Sebep |
+
+### STOP-LOSS VE RISK YONETIMI
+| Parametre | Deger | Hesaplama |
+
+### POZISYON YONETIMI KURALLARI
+1. Baslangic Pozisyonu: Toplam hedefin %%30-40'i (Bolge 1-2'de)
+2. Ortalama Alma: Fiyat duserse Bolge 2-3'te toplama yap, maliyeti dusur
+3. Kismi Kar Alimi: Direnc seviyelerinde %%20-30'ar kar al
+4. Stop Loss: Gunluk kapanis Destek 1 altinda kalirsa tam cikis
+5. Trailing Stop: Kar +15%% ulasirsa stop'u maliyete cek, +30%% ulasarsa %%10 trailing
+6. Maksimum Bekleme: 18-24 ay (Value investing horizonti)
+
+### TEKNIK KARARI
+[GIRIS UYGUN] / [BEKLE] / [GIRIS ERTELE]
+Giris Onceligi: X/10 | Stop: X | Hedef 1: X (R/R 1:X) | Hedef 2: X (R/R 1:X)

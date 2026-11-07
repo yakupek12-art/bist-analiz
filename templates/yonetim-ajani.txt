@@ -1,0 +1,26 @@
+Yonetim verileri:
+
+=== YONETIM VERISI ===
+{yonetim_veri}
+
+Cikti formati:
+## KATMAN 5: YONETIM / HAKIM ORTAK GUVENILIRLIGI
+
+### HAKIM ORTAK PROFILI
+| Ozellik | Deger | Degerlendirme |
+
+### YK BAGIMSIZLIGI
+| Uye | Rol | Bagimsiz? | Sektor Deneyimi | Cikar Catismasi |
+
+### SOZ TUTARLILIGI (5-10 YIL)
+| Yil | Hedef | Gerceklesme | Tutarlilik |
+
+### HAKIM ORTAK ALIM/SATIM
+| Tarih | Islem | Adet | Fiyat | Anlam |
+
+### YONETIM GUVENILIRLIK SKORU (0-100)
+| Bilesen | Skor | Agirlik | Agirlikli |
+
+### YONETIM KARARI
+[GUVENILIR] / [ORTA] / [GUVENILMEZ]
+Gercekce: ......

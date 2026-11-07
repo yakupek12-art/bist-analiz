@@ -1,0 +1,36 @@
+{
+  "sembol": "SDTTR",
+  "sektor": "Diğer",
+  "peers": [
+    "SDTTR",
+    "ASELS",
+    "TAI",
+    "TURKSAT",
+    "TURKNET",
+    "HAVELSAN"
+  ],
+  "ozet": {
+    "favok_marj_5y_ort": 16.17,
+    "net_marj_5y_ort": 2.14,
+    "roic_5y_ort": 6.59,
+    "net_borc_favok_5y_ort": -1.0,
+    "cari_oran_5y_ort": 4.98,
+    "fcf_netkar_5y_ort": -1385.87,
+    "satis_cagr_5y": 0.2796,
+    "netkar_cagr_5y": null
+  },
+  "peer_karsilastirma": {
+    "TUPRS": {
+      "favok_marj": 16.17,
+      "roic": 6.59,
+      "pazar_payi": 65,
+      "net_borc_favok": -1.0
+    },
+    "PETKM": {
+      "favok_marj": 12,
+      "roic": 9,
+      "pazar_payi": 20,
+      "net_borc_favok": 3.5
+    }
+  }
+}

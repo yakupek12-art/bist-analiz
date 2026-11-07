@@ -1,0 +1,37 @@
+Degerleme verileri:
+
+=== DEGERLEME GIRDISI ===
+{degerleme_girdi}
+
+=== FINANSAL DERINLIK ===
+{finansal_derinlik}
+
+=== HENDEK SKORU ===
+{hendek_skor}
+
+Cikti formati:
+## KATMAN 8: DEGERLEME
+
+### HENDEK DURUMU
+Hendek Skoru: X/100 -> HENDEKLI (>=50) / HENDEKSIZ (<50)
+
+### A) HENDEKLI ICIN DEGERLEME
+#### DCF (3 SENARYO)
+| Senaryo | WACC | g | Fair Value | Hisse Bazinda | Guvenlik Marji |
+
+#### CARPAN PERSENTIL (5-10 YIL)
+| Carpan | Mevcut | 5 Yl Medyan | Percentil | Sektor vs Sirket |
+
+#### TERS DCF
+- Icsel Buyume: X%% | Sektor: Y%% -> Piyasa neyi fiyatliyor?
+
+#### GUVENLIK MARJI
+- Baz Fair Value: X TL | Mevcut: Y TL | Marj: Z%%
+
+### B) HENDEKSIZ ISE
+#### KALITE KONTROL LISTESI
+| Kriter | Esik | Mevcut | Sonuc |
+
+### DEGERLEME KARARI
+[ALINABILIR] / [IZLE] / [KACIN]
+Gercekce: ......

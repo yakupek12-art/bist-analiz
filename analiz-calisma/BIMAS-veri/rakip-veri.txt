@@ -1,0 +1,6 @@
+RAKIP KIYASLAMASI - BIMAS
+Kaynak: Yahoo Finance (guncel fiyat)
+
+MGROS: Son=435.5 TL, Gunluk=%1.75
+SOKM: Son=52.45000076293945 TL, Gunluk=%-0.85
+SHLF: Veri alinamadi

@@ -1,0 +1,29 @@
+Asagidaki verilerle sirket hikayesini cikar:
+
+=== HIKAYE VERISI ===
+{hikaye_veri}
+
+=== BILANCO OZET ===
+{bilanco_ozet}
+
+=== YATIRIM PLANLARI (KAP) ===
+{kap_yatirim_planlari}
+
+Cikti formati:
+## KATMAN 2: SIRKET HIKAYESI VE STRATEJI
+
+### SIRKET KIMLIGI
+- Kurulus, sahip yapisi, ana faaliyet, pazar konumu
+
+### ASIL PARA KAYNAGI
+| Segment | Pay %% | 5 Yl Trendi | Marj %% |
+
+### GELECEK YATIRIMLAR VE KAPASITE
+| Proje | Butce | Bitis | Beklenti | Kaynak |
+
+### MOAT INSASI
+| Moat Turu | Var mi? | Guc (1-10) | Kanit |
+
+### HIKAYE KARARI
+[GUCLU] / [ORTA] / [ZAYIF]
+Gercekce: ......

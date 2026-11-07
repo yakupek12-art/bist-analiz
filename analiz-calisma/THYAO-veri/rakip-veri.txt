@@ -1,0 +1,6 @@
+RAKIP KIYASLAMASI - THYAO
+Kaynak: Yahoo Finance (guncel fiyat)
+
+PGSUS: Son=127.19999694824219 TL, Gunluk=%4.09
+LH: Son=353.42999267578125 TL, Gunluk=%-0.61
+RYAIR: Veri alinamadi

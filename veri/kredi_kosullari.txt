@@ -1,0 +1,50 @@
+TUPRS Kredi Koşulları ve Borç Yapısı (2024 Q4):
+
+BORÇ YAPISI:
+- Toplam Finansal Borç: 73.3 Mrd TL
+  - Kısa Vadeli: 25.7 Mrd TL (%35)
+  - Uzun Vadeli: 47.6 Mrd TL (%65)
+- Döviz Dağılımı:
+  - USD: 42 Mrd TL (%57)
+  - EUR: 18 Mrd TL (%25)
+  - TL: 13.3 Mrd TL (%18)
+- Faiz Türü:
+  - Sabit Faiz: %60 (Ort. %4.2 USD, %3.8 EUR, %35 TL)
+  - Değişken Faiz: %40 (SOFR/EURIBOR + marj)
+- Ortalama Vade: 4.2 Yıl
+  - 1 yıl içinde: 25.7 Mrd TL
+  - 1-5 yıl: 32 Mrd TL
+  - 5+ yıl: 15.6 Mrd TL
+
+KREDİ NOTLARI:
+- Ulusal (JCR Avrasya): AAA (tr) / Negative outlook
+- Uluslararası: 
+  - S&P: B+ / Stable
+  - Moody's: B1 / Stable
+  - Fitch: BB- / Stable
+
+KREDİ SÖZLEŞMELERİ (COVENANTS):
+- Net Borç / FAVÖK < 3.5x (Mevcut: 1.8x - Uygun)
+- FAVÖK / Faiz Gideri > 3.0x (Mevcut: 5.2x - Uygun)
+- Cari Oran > 1.0x (Mevcut: 1.1x - Sınırda)
+- Özkaynak / Toplam Varlık > 20% (Mevcut: 22% - Uygun)
+
+BANKA KREDİLERİ:
+- Toplam 18 banka, 45 kredi sözleşmesi
+- Lider bankalar: Garanti, İş Bankası, Akbank, Yapı Kredi, Vakıfbank
+- Syndication kredileri: 3 adet (USD 1.2 Mrd, EUR 800 Mn, TL 5 Mrd)
+- Proje finansmanı: İzmir rafinerisi genişletme ($1.2 Mrd, 12 yıl)
+
+RE-FINANSMAN RİSKİ:
+- 2025: 18 Mrd TL venceli (Kısa vadeli + uzun vadeli ilk taksitler)
+- 2026: 12 Mrd TL
+- 2027: 9 Mrd TL
+- Re-finansman maliyeti: 2024 TL krediler %45 -> %35'e düştü
+- USD/EUR kredileri: Fed/ECB indirimiyle %50 bp ucuza
+
+NAKİT POZİSYONU:
+- Nakit ve Benzeri: 39.5 Mrd TL
+- Kısa Vadeli Yatırımlar: 4.2 Mrd TL
+- Toplam Likidite: 43.7 Mrd TL
+- Kısa Vadeli Borç Ödemeleri (12 ay): 25.7 Mrd TL
+- Likidite Kapsama: 1.7x (Rahat)

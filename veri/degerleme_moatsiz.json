@@ -1,0 +1,67 @@
+{
+  "symbol": "TUPRS",
+  "hendeksiz_kontrol": {
+    "kontroller": {
+      "nc_pozitif": {
+        "esik": "> 0",
+        "mevcut": 5000,
+        "sonuc": true
+      },
+      "cfo_gt_nc": {
+        "esik": "CFO/NC > 1.0",
+        "mevcut": 1.3,
+        "sonuc": true
+      },
+      "roa_artis": {
+        "esik": "ROA trendi artan",
+        "mevcut": "artan",
+        "sonuc": true
+      },
+      "de_azalma": {
+        "esik": "D/E trendi azalan",
+        "mevcut": "azalan",
+        "sonuc": true
+      },
+      "cari_iyi": {
+        "esik": "Cari ≥ 1.0 ve artan",
+        "mevcut": 1.35,
+        "sonuc": true
+      },
+      "sermaye_artirimi_yok": {
+        "esik": "5 yl sermaye artırımı yok",
+        "mevcut": true,
+        "sonuc": true
+      },
+      "brut_marj_artis": {
+        "esik": "Brüt marj trendi artan",
+        "mevcut": "artan",
+        "sonuc": true
+      },
+      "asset_turnover_artis": {
+        "esik": "Asset turnover artan",
+        "mevcut": "artan",
+        "sonuc": true
+      }
+    },
+    "tum_kriterler_karsilandi": true,
+    "karsilanmayan_sayi": 0
+  },
+  "degerleme": {
+    "pe_sektor": 13.0,
+    "ev_favok_sektor": 17.6,
+    "pb_ozkaynak": 10.0,
+    "nakit_temelli": 13.6,
+    "fair_aralik": {
+      "min": 10.0,
+      "max": 17.6,
+      "ortalama": 13.55
+    }
+  },
+  "fair_value_aralik": {
+    "min": 10.0,
+    "max": 17.6,
+    "ortalama": 13.55
+  },
+  "mevcut_fiyat": 180.0,
+  "analysis_date": "2026-10-29"
+}

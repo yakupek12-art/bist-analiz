@@ -1,0 +1,7 @@
+RAKIP KIYASLAMASI - ASELS
+Kaynak: Yahoo Finance (guncel fiyat)
+
+OTOKAR: Veri alinamadi
+PAMEL: Son=38.0 TL, Gunluk=%9.7
+NUHL: Veri alinamadi
+SOKM: Son=52.45000076293945 TL, Gunluk=%-0.85

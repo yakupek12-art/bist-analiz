@@ -1,0 +1,30 @@
+{
+  "peers": [
+    "TUPRS",
+    "PETKM"
+  ],
+  "comparison": {
+    "TUPRS": {
+      "ciro_cagr_5y": 0.15,
+      "favok_marj": 0.18,
+      "roic": 0.15,
+      "pazar_payi": 0.65
+    },
+    "PETKM": {
+      "ciro_cagr_5y": 0.08,
+      "favok_marj": 0.12,
+      "roic": 0.09,
+      "pazar_payi": 0.2
+    }
+  },
+  "cost_advantage": {
+    "TUPRS": 0.95,
+    "PETKM": 1.05
+  },
+  "market_share_trend": {
+    "TUPRS": "+700bp",
+    "PETKM": "-200bp"
+  },
+  "symbol": "TUPRS",
+  "analysis_date": "2026-10-29"
+}

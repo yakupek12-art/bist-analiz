@@ -1,0 +1,32 @@
+Rakip analizi verileri:
+
+=== RAKIP VERISI ===
+{rakip_veri}
+
+=== RAKIP KARSILASTIRMA ===
+{rakip_karsilastirma}
+
+=== SEKTOR VERISI ===
+{sektor_veri}
+
+Cikti formati:
+## KATMAN 4: RAKIP DERIN ANALIZI
+
+### SECILI RAKIP LISTESI
+| Rakip | Kod | Secim Nedeni | Pazar Payi %% | Benzerlik %% |
+
+### KARSILASTIRMA TABLOSU (5 YIL)
+| Metrik | Bizim Sirket | Rakip A | Rakip B | Sektor Medyan | Siralama |
+
+### MALIYET AVANTAJI KARSILASTIRMASI
+| Maliyet Kalemi | Bizim | Rakip A | Sektor Ort. | Avantaj |
+
+### PAZAR PAYI TRENDI (5 YIL)
+| Yil | Bizim %% | Rakip A %% | Rakip B %% | Toplam Pazar |
+
+### RAKIP TEHDIT MATRISI
+| Rakip | Tehdit | Neden | Tehdit Turu | Cevap |
+
+### RAKIP KARARI
+[GUCLU POZISYON] / [ORTA] / [ZAYIF] / [KAYBEDILIYOR]
+Gercekce: ......

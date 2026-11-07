@@ -1,0 +1,49 @@
+{
+  "sembol": "TUPRS",
+  "fiyat": 185.50,
+  "hisse_adedi_mn": 250.0,
+  "piyasa_degeri_mn_tl": 46375,
+  "hendek_skoru": 75,
+  "hendek_durumu": "HENDEKLİ",
+  "finansal": {
+    "net_kar_mn_tl": 16500,
+    "cfo_mn_tl": 22000,
+    "favok_mn_tl": 28000,
+    "ozkaynak_mn_tl": 52000,
+    "nakit_mn_tl": 39500,
+    "net_borc_mn_tl": 33800,
+    "favok": 28000,
+    "cfo": 22000,
+    "net_kar": 16500,
+    "ozkaynak": 52000,
+    "nakit": 39500,
+    "net_borc": 33800,
+    "roa_trend": "artan",
+    "de_trend": "azalan",
+    "cari_oran": 1.25,
+    "cari_trend": "artan",
+    "sermaye_artirimi_yok": true,
+    "brut_marj_trend": "artan",
+    "asset_turnover_trend": "artan",
+    "cfo_5y_ort": 21000
+  },
+  "sektor_medyanlar": {
+    "p_e": 6.5,
+    "ev_favok": 7.0,
+    "ev_sales": 1.2,
+    "p_b": 1.5,
+    "p_fcf": 12.0
+  },
+  "dcf_parametreler": {
+    "rf": 0.26,
+    "erp": 0.07,
+    "beta": 1.15,
+    "ozel_risk": 0.03,
+    "ke": 0.36,
+    "kd": 0.12,
+    "vergi_orani": 0.25,
+    "dv_orani": 0.35,
+    "wacc": 0.24,
+    "g_terminal": 0.03
+  }
+}

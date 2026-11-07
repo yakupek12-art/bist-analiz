@@ -1,0 +1,6 @@
+RAKIP KIYASLAMASI - ESCOM
+Kaynak: Yahoo Finance (guncel fiyat)
+
+HAVA: Veri alinamadi
+ESGYO: Veri alinamadi
+AEFES: Son=16.610000610351562 TL, Gunluk=%2.28

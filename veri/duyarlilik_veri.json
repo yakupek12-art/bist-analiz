@@ -1,0 +1,137 @@
+{
+  "symbol": "TUPRS",
+  "elastisiteler": {
+    "usd_try_elastisite": 0.15,
+    "eur_try_elastisite": 0.05,
+    "petrol_elastisite": -0.08,
+    "faiz_tl_elastisite": -0.03,
+    "faiz_usd_elastisite": -0.01,
+    "enflasyon_maliyet_yansitma": 0.6,
+    "ihale_bagimliligi": 0.35
+  },
+  "hedge": {
+    "petrol": {
+      "oran": 0.75,
+      "arac": "Swap/Futures",
+      "vade_ay": 18,
+      "etkinlik": 0.85,
+      "acik_pozisyon_mn_usd": 120
+    },
+    "usd_try": {
+      "oran": 0.6,
+      "arac": "Forward/Option",
+      "vade_ay": 12,
+      "etkinlik": 0.7,
+      "acik_pozisyon_mn_usd": 80
+    },
+    "eur_try": {
+      "oran": 0.4,
+      "arac": "Forward",
+      "vade_ay": 12,
+      "etkinlik": 0.6,
+      "acik_pozisyon_mn_usd": 30
+    },
+    "faiz": {
+      "oran": 0.5,
+      "arac": "IRS",
+      "vade_ay": 24,
+      "etkinlik": 0.75,
+      "acik_pozisyon_mn_usd": 50
+    }
+  },
+  "senaryolar": {
+    "tl_20_deger_kaybi": {
+      "ciro_etkisi": 0.12,
+      "favok_etkisi": -0.08,
+      "net_kar_etkisi": -0.15,
+      "cari_etkisi_pp": -0.15
+    },
+    "petrol_95_plus": {
+      "ciro_etkisi": -0.05,
+      "favok_etkisi": -0.12,
+      "net_kar_etkisi": -0.2,
+      "cari_etkisi_pp": -0.1
+    },
+    "faiz_300bp_tl": {
+      "ciro_etkisi": 0.0,
+      "favok_etkisi": -0.09,
+      "net_kar_etkisi": -0.12,
+      "cari_etkisi_pp": -0.05
+    },
+    "petrol_95_tl_20": {
+      "ciro_etkisi": -0.08,
+      "favok_etkisi": -0.25,
+      "net_kar_etkisi": -0.35,
+      "cari_etkisi_pp": -0.25
+    },
+    "ihale_50_kaybi": {
+      "ciro_etkisi": -0.18,
+      "favok_etkisi": -0.3,
+      "net_kar_etkisi": -0.4,
+      "cari_etkisi_pp": -0.2
+    },
+    "resesyon_talp_20": {
+      "ciro_etkisi": -0.2,
+      "favok_etkisi": -0.25,
+      "net_kar_etkisi": -0.35,
+      "cari_etkisi_pp": -0.15
+    }
+  },
+  "kirilma_noktalari": {
+    "cari_oran_alt_1": {
+      "esik": 1.0,
+      "mevcut": 1.25,
+      "mesafe": 0.25,
+      "olasilik": "Orta"
+    },
+    "net_borc_favok_ust_5": {
+      "esik": 5.0,
+      "mevcut": 3.2,
+      "mesafe": 1.8,
+      "olasilik": "Düşük"
+    },
+    "faiz_ortusme_alt_1_5": {
+      "esik": 1.5,
+      "mevcut": 4.5,
+      "mesafe": 3.0,
+      "olasilik": "Düşük"
+    },
+    "nakit_kisa_borc_alt_0_3": {
+      "esik": 0.3,
+      "mevcut": 0.45,
+      "mesafe": 0.15,
+      "olasilik": "Orta"
+    },
+    "ihale_payi_alt_20": {
+      "esik": 0.2,
+      "mevcut": 0.35,
+      "mesafe": 0.15,
+      "olasilik": "Orta"
+    }
+  },
+  "ihale_bagimliligi": [
+    {
+      "tur": "Rafineri İhalesi",
+      "yillik_hacim_mn_tl": 1200,
+      "ciro_payi": 0.25,
+      "kazanma_orani": 0.8,
+      "teklif_kazanan": 8
+    },
+    {
+      "tur": "Petrol Ürünleri Dağıtım",
+      "yillik_hacim_mn_tl": 450,
+      "ciro_payi": 0.1,
+      "kazanma_orani": 0.65,
+      "teklif_kazanan": 5
+    }
+  ],
+  "kredi_kosullari": {
+    "kisa_vadeli_borc_orani": 0.35,
+    "doviz_cinsinden_borc_orani": 0.65,
+    "sabit_degisken_faiz_orani": 0.6,
+    "ortalama_vade_yil": 4.5,
+    "kredi_notu_ulusal": "AAA(tr)",
+    "kredi_notu_uluslararasi": "BBB-"
+  },
+  "analysis_date": "2026-10-29"
+}

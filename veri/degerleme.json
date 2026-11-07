@@ -1,0 +1,63 @@
+{
+  "symbol": null,
+  "price_per_share": 252.5,
+  "shares": 3500000,
+  "market_cap_mn": 883.75,
+  "net_debt_mn": 833888.0,
+  "cash_mn": 80346.0,
+  "enterprise_value_mn": 754425.75,
+  "latest_period": "2026/6",
+  "sales_mn": 585069.0,
+  "favok_mn": -5098.0,
+  "net_income_mn": 18864.0,
+  "equity_mn": null,
+  "fcf_mn": 13887.0,
+  "net_debt_favok": -163.57,
+  "valuation": {
+    "rows": [
+      {
+        "method": "P/E",
+        "multiple": 0.05,
+        "fair_value_tl": 252.5
+      },
+      {
+        "method": "EV/FAVOK",
+        "multiple": -147.98,
+        "fair_value_tl": 252.5
+      },
+      {
+        "method": "EV/Sales",
+        "multiple": 1.29,
+        "fair_value_tl": 252.5
+      },
+      {
+        "method": "P/FCF",
+        "multiple": 0.06,
+        "fair_value_tl": 252.5
+      }
+    ],
+    "count": 4,
+    "fair_value_min": 252.5,
+    "fair_value_max": 252.5,
+    "fair_value_avg": 252.5,
+    "discount_pct": 0.0,
+    "dcf_scenarios": {
+      "kötü": {
+        "dcf_value_mn": -28204.94,
+        "equity_value_mn": -781746.94,
+        "fair_value_tl": -223356.27
+      },
+      "base": {
+        "dcf_value_mn": -40292.77,
+        "equity_value_mn": -793834.77,
+        "fair_value_tl": -226809.93
+      },
+      "iyi": {
+        "dcf_value_mn": -52380.6,
+        "equity_value_mn": -805922.6,
+        "fair_value_tl": -230263.6
+      }
+    }
+  },
+  "generated_at": "2026-11-05T20:47:07.007909"
+}

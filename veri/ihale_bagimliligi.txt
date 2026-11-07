@@ -1,0 +1,17 @@
+TUPRS İhale Bağımlılığı Analizi:
+
+İhale Türü | Yıllık Hacim (Mn TL) | Ciro Payı % | Kazanma Oranı % | Teklif/Kazanılan | Son Yıl
+---|---|---|---|---|---
+TÜRKİYE Petrol İhalesi | 1,200 | 25% | 80% | 8/8 | 2024
+THY Uçak Yakıtı | 450 | 10% | 65% | 5/5 | 2024
+TSK Yakıt İhtiyacı | 180 | 4% | 75% | 3/3 | 2024
+Belediye/Devlet Araçları | 90 | 2% | 60% | 4/4 | 2024
+Diğer Kamu Kurumları | 120 | 3% | 55% | 6/6 | 2024
+TOPLAM | 2,040 | 42% | 72% Ort. | - | -
+
+Risk Analizi:
+- Tek ihale kaybı etkisi: Ciro -%10, FAVÖK -%15
+- THY kaybı: Ciro -%12, Nakit akışı ciddi etki
+- Toplam ihale kaybı (%50): Ciro -%21, FAVÖK -%30 -> Kırılma noktası
+- Yeniden ihale süreci: Yıllık, belirsizlik yaratıyor
+- Fiyat belirleme: Döviz kuru endeksli, marj koruması kısmi

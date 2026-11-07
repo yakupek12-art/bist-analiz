@@ -1,0 +1,33 @@
+Risk verileri:
+
+=== DUYARLILIK VERISI ===
+{duyarlilik_veri}
+
+=== MAKRO VERI ===
+{makro_veri}
+
+=== IHALE BAGIMLILIGI ===
+{ihale_bagimliligi}
+
+=== KREDI KOSULLARI ===
+{kredi_kosullari}
+
+Cikti formati:
+## KATMAN 7: DUYARLILIK VE RISK ANALIZI
+
+### DUYARLILIK KATSAYILARI
+| Risk Faktoru | Katsayi | Anlam |
+
+### HEDGE PROGRAMI
+| Risk | Oran %% | Arac | Vade | Etkinlik %% | Acik Pozisyon |
+
+### MAKRO SOK SENARYOLARI
+| Sok | Ciro Etkisi | FAVOK Etkisi | Net Kar Etkisi | Cari Etkisi | Dayaniklik |
+
+### KIRILMA NOKTALARI
+| Risk | Esik | Mevcut | Mesafe | Olasilik |
+
+### RISK KARARI
+[DUSUK] / [ORTA] / [YUKSEK] / [KRITIK]
+En Buyuk 3 Risk: 1) ... 2) ... 3) ...
+Kirilma Noktasi: ......

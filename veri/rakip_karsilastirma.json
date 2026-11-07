@@ -1,0 +1,40 @@
+{
+  "peers": {
+    "TUPRS": {
+      "ciro_mn_tl": 850000,
+      "net_kar_mn_tl": 18200,
+      "favok_marj": 0.18,
+      "net_marj": 0.021,
+      "roe": 0.28,
+      "roic": 0.15,
+      "net_borc_favok": 1.8,
+      "cari_oran": 1.1,
+      "p_e": 4.2,
+      "ev_favok": 5.5,
+      "pazar_payi": 0.65
+    },
+    "PETKM": {
+      "ciro_mn_tl": 120000,
+      "net_kar_mn_tl": 1200,
+      "favok_marj": 0.12,
+      "net_marj": 0.01,
+      "roe": 0.12,
+      "roic": 0.08,
+      "net_borc_favok": 3.5,
+      "cari_oran": 0.9,
+      "p_e": 8.5,
+      "ev_favok": 8.2,
+      "pazar_payi": 0.15
+    }
+  },
+  "sektor_medyan": {
+    "favok_marj": 0.15,
+    "net_marj": 0.015,
+    "roe": 0.20,
+    "roic": 0.10,
+    "net_borc_favok": 2.5,
+    "cari_oran": 1.2,
+    "p_e": 6.0,
+    "ev_favok": 6.5
+  }
+}

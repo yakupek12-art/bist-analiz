@@ -1,0 +1,31 @@
+{
+  "symbol": "TEST.IS",
+  "tarih": "2026-11-05 22:02",
+  "kisa_pozisyon": {
+    "symbol": "TEST.IS",
+    "tarih": "2026-11-05 22:02",
+    "kisa_pozisyon_orani": 6.3,
+    "degisim": 1.2,
+    "uyari": "Kısa pozisyon %+1.20 pp artış — dikkat"
+  },
+  "kurumsal_sahiplik": {
+    "symbol": "TEST.IS",
+    "tarih": "2026-11-05 22:02",
+    "bildirimler": [
+      {
+        "sahibi": "ABC Kurumsal",
+        "orani": 8.1,
+        "degisim": "+2.5",
+        "tarih": "2026-10-20"
+      },
+      {
+        "sahibi": "DEF Yatırım",
+        "orani": 5.4,
+        "degisim": "-0.3",
+        "tarih": "2026-10-18"
+      }
+    ],
+    "uyari": "1 kurumsal sahilikte %1 üzeri değişiklik var"
+  },
+  "toplam_uyari": 2
+}

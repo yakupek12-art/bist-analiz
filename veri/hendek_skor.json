@@ -1,0 +1,16 @@
+{
+  "sembol": "TUPRS",
+  "hendek_skoru": 75,
+  "hendek_durumu": "HENDEKLİ",
+  "bilesenler": {
+    "maliyet_avantaji": {"skor": 18, "agirlik": 0.25, "agirlikli_skor": 4.5},
+    "ag_etkisi": {"skor": 16, "agirlik": 0.20, "agirlikli_skor": 3.2},
+    "gecis_maliyeti": {"skor": 18, "agirlik": 0.20, "agirlikli_skor": 3.6},
+    "lisans_izin_bariyeri": {"skor": 14, "agirlik": 0.15, "agirlikli_skor": 2.1},
+    "marka_itibar": {"skor": 12, "agirlik": 0.10, "agirlikli_skor": 1.2},
+    "veri_teknoloji": {"skor": 10, "agirlik": 0.10, "agirlikli_skor": 1.0}
+  },
+  "toplam_skor": 75,
+  "durum": "HENDEKLİ (Skor ≥ 50)",
+  "aciklama": "Güçlü hendek - Maliyet avantajı ve giriş bariyerleri en güçlü unsurlardır"
+}

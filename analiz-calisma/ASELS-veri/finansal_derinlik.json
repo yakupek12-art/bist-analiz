@@ -1,0 +1,200 @@
+{
+  "2021/3": {
+    "period": "2021/3",
+    "toplam_finansal_borc": 4228507000.0,
+    "nakit": 3148661000.0,
+    "net_borc": 1079846000.0,
+    "asit_test_temsili": 179.6,
+    "net_borc_favok_proxy": 69.3,
+    "normalize_kar": -2863945000.0
+  },
+  "2021/6": {
+    "period": "2021/6",
+    "toplam_finansal_borc": 4491134000.0,
+    "nakit": 2510004000.0,
+    "net_borc": 1981130000.0,
+    "asit_test_temsili": 153.91,
+    "net_borc_favok_proxy": 68.01,
+    "normalize_kar": -4719565000.0
+  },
+  "2021/9": {
+    "period": "2021/9",
+    "toplam_finansal_borc": 3991009000.0,
+    "nakit": 1310898000.0,
+    "net_borc": 2680111000.0,
+    "asit_test_temsili": 128.84,
+    "net_borc_favok_proxy": 81.2,
+    "normalize_kar": -6822375000.0
+  },
+  "2021/12": {
+    "period": "2021/12",
+    "toplam_finansal_borc": 5402950000.0,
+    "nakit": 2492096000.0,
+    "net_borc": 2910854000.0,
+    "asit_test_temsili": 177.67,
+    "net_borc_favok_proxy": 30.88,
+    "normalize_kar": -17160178000.0
+  },
+  "2022/3": {
+    "period": "2022/3",
+    "toplam_finansal_borc": 7800191000.0,
+    "nakit": 2154327000.0,
+    "net_borc": 5645864000.0,
+    "asit_test_temsili": 126.61,
+    "net_borc_favok_proxy": 305.82,
+    "normalize_kar": -4496537000.0
+  },
+  "2022/6": {
+    "period": "2022/6",
+    "toplam_finansal_borc": 8444777000.0,
+    "nakit": 2222948000.0,
+    "net_borc": 6221829000.0,
+    "asit_test_temsili": 130.84,
+    "net_borc_favok_proxy": 130.48,
+    "normalize_kar": -10476785000.0
+  },
+  "2022/9": {
+    "period": "2022/9",
+    "toplam_finansal_borc": 8995027000.0,
+    "nakit": 1351755000.0,
+    "net_borc": 7643272000.0,
+    "asit_test_temsili": 114.71,
+    "net_borc_favok_proxy": 112.23,
+    "normalize_kar": -14660601000.0
+  },
+  "2022/12": {
+    "period": "2022/12",
+    "toplam_finansal_borc": 17850874000.0,
+    "nakit": 9370629000.0,
+    "net_borc": 8480245000.0,
+    "asit_test_temsili": 132.16,
+    "net_borc_favok_proxy": 47.11,
+    "normalize_kar": -41545286000.0
+  },
+  "2023/3": {
+    "period": "2023/3",
+    "toplam_finansal_borc": 10043185000.0,
+    "nakit": 3649397000.0,
+    "net_borc": 6393788000.0,
+    "asit_test_temsili": 130.56,
+    "net_borc_favok_proxy": 130.29,
+    "normalize_kar": -11301653266.0
+  },
+  "2023/6": {
+    "period": "2023/6",
+    "toplam_finansal_borc": 15135701000.0,
+    "nakit": 1279194000.0,
+    "net_borc": 13856507000.0,
+    "asit_test_temsili": 100.59,
+    "net_borc_favok_proxy": 78.13,
+    "normalize_kar": -36303295000.0
+  },
+  "2023/9": {
+    "period": "2023/9",
+    "toplam_finansal_borc": 16465267000.0,
+    "nakit": 1727103000.0,
+    "net_borc": 14738164000.0,
+    "asit_test_temsili": 104.17,
+    "net_borc_favok_proxy": 64.62,
+    "normalize_kar": -46632704000.0
+  },
+  "2023/12": {
+    "period": "2023/12",
+    "toplam_finansal_borc": 28786115000.0,
+    "nakit": 9543479000.0,
+    "net_borc": 19242636000.0,
+    "asit_test_temsili": 98.21,
+    "net_borc_favok_proxy": 53.3,
+    "normalize_kar": -78953993000.0
+  },
+  "2024/3": {
+    "period": "2024/3",
+    "toplam_finansal_borc": 22810589000.0,
+    "nakit": 3073720000.0,
+    "net_borc": 19736869000.0,
+    "asit_test_temsili": 84.44,
+    "net_borc_favok_proxy": 319.7,
+    "normalize_kar": -13535718000.0
+  },
+  "2024/6": {
+    "period": "2024/6",
+    "toplam_finansal_borc": 26887740000.0,
+    "nakit": 1918732000.0,
+    "net_borc": 24969008000.0,
+    "asit_test_temsili": 72.58,
+    "net_borc_favok_proxy": 197.59,
+    "normalize_kar": -20259922000.0
+  },
+  "2024/9": {
+    "period": "2024/9",
+    "toplam_finansal_borc": 33384987000.0,
+    "nakit": 3596825000.0,
+    "net_borc": 29788162000.0,
+    "asit_test_temsili": 77.78,
+    "net_borc_favok_proxy": 155.05,
+    "normalize_kar": -31228060000.0
+  },
+  "2024/12": {
+    "period": "2024/12",
+    "toplam_finansal_borc": 42621581572.0,
+    "nakit": 21776902295.0,
+    "net_borc": 20844679277.0,
+    "asit_test_temsili": 125.54,
+    "net_borc_favok_proxy": 58.24,
+    "normalize_kar": -45257992606.0
+  },
+  "2025/3": {
+    "period": "2025/3",
+    "toplam_finansal_borc": 32945408000.0,
+    "nakit": 12832115000.0,
+    "net_borc": 20113293000.0,
+    "asit_test_temsili": 84.25,
+    "net_borc_favok_proxy": 209.39,
+    "normalize_kar": -22276504000.0
+  },
+  "2025/6": {
+    "period": "2025/6",
+    "toplam_finansal_borc": 36833058000.0,
+    "nakit": 15791773000.0,
+    "net_borc": 21041285000.0,
+    "asit_test_temsili": 73.39,
+    "net_borc_favok_proxy": 91.25,
+    "normalize_kar": -39222566000.0
+  },
+  "2025/9": {
+    "period": "2025/9",
+    "toplam_finansal_borc": 38206264000.0,
+    "nakit": 14437566000.0,
+    "net_borc": 23768698000.0,
+    "asit_test_temsili": 72.15,
+    "net_borc_favok_proxy": 90.15,
+    "normalize_kar": -41442985000.0
+  },
+  "2025/12": {
+    "period": "2025/12",
+    "toplam_finansal_borc": 50702735018.0,
+    "nakit": 34251789455.0,
+    "net_borc": 16450945563.0,
+    "asit_test_temsili": 104.06,
+    "net_borc_favok_proxy": 28.08,
+    "normalize_kar": -67824478760.0
+  },
+  "2026/3": {
+    "period": "2026/3",
+    "toplam_finansal_borc": 53089817000.0,
+    "nakit": 31005730000.0,
+    "net_borc": 22084087000.0,
+    "asit_test_temsili": 87.63,
+    "net_borc_favok_proxy": 232.91,
+    "normalize_kar": -14581005000.0
+  },
+  "2026/6": {
+    "period": "2026/6",
+    "toplam_finansal_borc": 73293290000.0,
+    "nakit": 39468926000.0,
+    "net_borc": 33824364000.0,
+    "asit_test_temsili": 83.38,
+    "net_borc_favok_proxy": 141.22,
+    "normalize_kar": -34664182000.0
+  }
+}

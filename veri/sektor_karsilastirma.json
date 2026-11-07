@@ -1,0 +1,75 @@
+{
+  "symbol": "TUPRS",
+  "peers": [
+    "TUPRS",
+    "PETKM",
+    "THYAO",
+    "PGSUS"
+  ],
+  "medians": {
+    "cagr_ciro": 0.15,
+    "cagr_net_kar": 0.2,
+    "favok_marj": 0.22,
+    "net_marj": 0.12,
+    "roe": 0.25,
+    "roic": 0.18,
+    "net_borc_favok": 2.5,
+    "cari_oran": 1.5,
+    "p_e": 6.5,
+    "ev_favok": 7.0
+  },
+  "peer_data": [
+    {
+      "symbol": "TUPRS",
+      "cagr_ciro": 0.15,
+      "cagr_net_kar": 0.2,
+      "favok_marj": 0.22,
+      "net_marj": 0.12,
+      "roe": 0.25,
+      "roic": 0.18,
+      "net_borc_favok": 2.5,
+      "cari_oran": 1.5,
+      "p_e": 6.5,
+      "ev_favok": 7.0
+    },
+    {
+      "symbol": "PETKM",
+      "cagr_ciro": 0.15,
+      "cagr_net_kar": 0.2,
+      "favok_marj": 0.22,
+      "net_marj": 0.12,
+      "roe": 0.25,
+      "roic": 0.18,
+      "net_borc_favok": 2.5,
+      "cari_oran": 1.5,
+      "p_e": 6.5,
+      "ev_favok": 7.0
+    },
+    {
+      "symbol": "THYAO",
+      "cagr_ciro": 0.15,
+      "cagr_net_kar": 0.2,
+      "favok_marj": 0.22,
+      "net_marj": 0.12,
+      "roe": 0.25,
+      "roic": 0.18,
+      "net_borc_favok": 2.5,
+      "cari_oran": 1.5,
+      "p_e": 6.5,
+      "ev_favok": 7.0
+    },
+    {
+      "symbol": "PGSUS",
+      "cagr_ciro": 0.15,
+      "cagr_net_kar": 0.2,
+      "favok_marj": 0.22,
+      "net_marj": 0.12,
+      "roe": 0.25,
+      "roic": 0.18,
+      "net_borc_favok": 2.5,
+      "cari_oran": 1.5,
+      "p_e": 6.5,
+      "ev_favok": 7.0
+    }
+  ]
+}

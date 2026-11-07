@@ -1,0 +1,40 @@
+Asagidaki verileri analiz et ve sektor makro raporu yaz:
+
+=== SEKTOR VERISI ===
+{sektor_veri}
+
+=== PEER LISTESI ===
+{sektor_peerler}
+
+=== MAKRO VERISI ===
+{makro_veri}
+
+Cikti formati:
+## KATMAN 1: SEKTOR MAKRO ANALIZI
+
+### TABLO: SEKTOR 5 YIL OZET
+| Yil | Sektor Ciro | YoY % | FAVOK Marj % | Net Marj % | Peer Medyan P/E | Para Akisi |
+|-----|-------------|-------|--------------|------------|-----------------|------------|
+
+### SEKTOR TREND ANALIZI
+- Ciro Trendi: ...
+- Marj Trendi: ...
+- Karlilik Kalitesi: ...
+- Para Akisi: ...
+
+### SOK DAYANIKLILIGI
+- 2020-2024 arasi tepkiler...
+- Marj dayanikligli...
+- Borclanma dayanikligli...
+
+### SEKTOR SAGLIK SKORU (0-100)
+- Ciro Buyumesi: X/20
+- Marj Trendi: X/20
+- Karlilik: X/20
+- Sok Dayanikligiligi: X/20
+- Degerleme Cazibesi: X/20
+- TOPLAM: X/100
+
+### SEKTOR KARARI
+[SAGLIKLI] / [ORTA] / [HASTALIKLI]
+Gercekce: ......

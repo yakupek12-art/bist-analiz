@@ -1,0 +1,14 @@
+[
+  {
+    "sahibi": "ABC Kurumsal",
+    "orani": 8.1,
+    "degisim": "+2.5",
+    "tarih": "2026-10-20"
+  },
+  {
+    "sahibi": "DEF Yatırım",
+    "orani": 5.4,
+    "degisim": "-0.3",
+    "tarih": "2026-10-18"
+  }
+]

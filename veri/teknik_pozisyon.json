@@ -1,0 +1,135 @@
+{
+  "symbol": "TUPRS",
+  "last_price": 252.5,
+  "trend": {
+    "aylik": "Yukselen",
+    "haftalik": "Yukselen",
+    "gunluk": "Yatay"
+  },
+  "indikatorler": {
+    "rsi": 20.4,
+    "macd": -9.49,
+    "signal": -9.49,
+    "histogram": null,
+    "sma20": 276.84,
+    "sma50": 288.56,
+    "sma200": 304.53,
+    "bb_upper": 301.68,
+    "bb_middle": 276.84,
+    "bb_lower": 251.99,
+    "atr": 7.39,
+    "adx": 25.0
+  },
+  "fibonacci": {
+    "0": 253.0,
+    "23.6": 275.48,
+    "38.2": 289.39,
+    "50": 300.62,
+    "61.8": 311.86,
+    "78.6": 327.87,
+    "100": 348.25,
+    "161.8": 407.11,
+    "261.8": 502.36
+  },
+  "destekler": [
+    {
+      "seviye": "Destek 1 (Kritik)",
+      "fiyat": 253.0,
+      "tip": "Son 50 gun dipi",
+      "gucluk": "Gucluk"
+    },
+    {
+      "seviye": "Destek 2",
+      "fiyat": 289.39,
+      "tip": "Fib 38.2%",
+      "gucluk": "Orta"
+    },
+    {
+      "seviye": "Destek 3",
+      "fiyat": 311.86,
+      "tip": "Fib 61.8%",
+      "gucluk": "Gucluk"
+    }
+  ],
+  "direnc": [
+    {
+      "seviye": "Direnc 1",
+      "fiyat": 275.48,
+      "tip": "Fib 23.6%",
+      "gucluk": "Orta"
+    },
+    {
+      "seviye": "Direnc 2",
+      "fiyat": 407.11,
+      "tip": "Fib 161.8% (Extension)",
+      "gucluk": "Gucluk"
+    }
+  ],
+  "giris_bolgeleri": [
+    {
+      "bolge": "Bolge 1 (Agresif)",
+      "aralik": [
+        311.86,
+        300.62
+      ],
+      "pozisyon_pct": 30,
+      "sebep": "Fib 50-61.8% + RSI <35",
+      "oncelik": 1
+    },
+    {
+      "bolge": "Bolge 2 (Standart)",
+      "aralik": [
+        300.62,
+        289.39
+      ],
+      "pozisyon_pct": 40,
+      "sebep": "Fib 38.2-50% + Trend cizgisi",
+      "oncelik": 2
+    },
+    {
+      "bolge": "Bolge 3 (Guvenli)",
+      "aralik": [
+        289.39,
+        275.48
+      ],
+      "pozisyon_pct": 30,
+      "sebep": "Fib 23.6-38.2% + Hacim onayi",
+      "oncelik": 3
+    }
+  ],
+  "cikis": [
+    {
+      "bolge": "Kismi Kar Alimi 1",
+      "aralik": [
+        278.3,
+        275.48
+      ],
+      "pozisyon_pct": 30,
+      "sebep": "Fib 23.6% + RSI >70"
+    },
+    {
+      "bolge": "Kismi Kar Alimi 2",
+      "aralik": [
+        407.11,
+        502.36
+      ],
+      "pozisyon_pct": 40,
+      "sebep": "Extension 161-261% + Hacim azalma"
+    },
+    {
+      "bolge": "Tam Cikis (Stop)",
+      "fiyat": 245.41,
+      "pozisyon_pct": 100,
+      "sebep": "Destek 1 kirilimi + Gunluk kapanis altinda"
+    }
+  ],
+  "stop_loss": 245.41,
+  "entry": 306.24,
+  "target1": 407.11,
+  "rr": 17.93,
+  "kelly": 0.525,
+  "ana_trend": "Dusen",
+  "risk_odul": "1:17.93",
+  "pozisyon_onerisi": "Toplam hedefin %30-40'i baslangic, geri kalan koreksiyonlarda",
+  "analysis_date": "2026-10-29"
+}

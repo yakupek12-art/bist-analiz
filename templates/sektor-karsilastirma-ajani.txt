@@ -1,0 +1,23 @@
+Karsilastirma verileri:
+
+=== SEKTOR KARSILASTIRMA ===
+{sektor_karsilastirma}
+
+=== SEKTOR VERISI ===
+{sektor_veri}
+
+=== FINANSAL DERINLIK ===
+{finansal_derinlik}
+
+Cikti formati:
+## KATMAN 6: SEKTOR ORTALAMASI vs SIRKET
+
+### TABLO: SEKTOR vs SIRKET -- 5 YIL ORTALAMALAR
+| Metrik | Sirket | Sektor Medyan | Sektor Ort. | En Iyi Peer | Siralama |
+
+### MARJ DARALIRKEN/ GENISLERKEN KARSILASTIRMA
+| Donem | Sektor FAVOK Marj D | Sirket FAVOK Marj D | Fark | Yorum |
+
+### SEKTOR KARSILASTIRMA KARARI
+[SEKTOR USTU] / [PARITE] / [SEKTOR ALTI]
+Gercekce: ......

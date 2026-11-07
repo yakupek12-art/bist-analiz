@@ -1,0 +1,31 @@
+Asagidaki verilerle hendek analizi yap:
+
+=== HENDEK VERISI ===
+{hendek_veri}
+
+=== RAKIP GIRIS BARIYERLERI ===
+{rakip_giris_bariyerleri}
+
+=== KRIZ PERFORMANSI ===
+{kriz_performans}
+
+Cikti formati:
+## KATMAN 3: HENDEK (MOAT) ANALIZI -- 5/10 YIL
+
+### TABLO: HENDEK METRIKLERI 5/10 YIL
+| Yil | Brut Marj %% | FAVOK Marj %% | Net Marj %% | Pazar Payi %% | Fiyatlama Gucu | Gecis Maliyeti |
+|-----|-------------|--------------|------------|--------------|----------------|----------------|
+
+### HENDEK TURLERI VE GUCLUGU (0-10)
+| Hendek Turu | Var mi? | Guc (0-10) | 5 Yl Trendi | Kanit |
+|-------------|---------|------------|-------------|-------|
+
+### KRIZ DAYANIKLILIGI
+| Kriz | Marj Degisimi | Pazar Payi | Toparlanma | Not |
+
+### HENDEK SKORU (0-100)
+| Bilesen | Skor | Agirlik | Agirlikli |
+
+### HENDEK KARARI
+[COK GUCLU] / [GUCLU] / [ORTA] / [ZAYIF]
+Gercekce: ......

@@ -1,0 +1,52 @@
+{
+  "symbol": "TEST.IS",
+  "tarih": "2026-11-05 22:00",
+  "karsilastirma": [
+    {
+      "metrik": "Satış Gelirleri",
+      "beklenen": 1000.0,
+      "gercek": 1050.0,
+      "fark": 50.0,
+      "yuzde_fark": 5.0,
+      "birim": "Mn TL",
+      "durum": "İYİ"
+    },
+    {
+      "metrik": "FAVÖK",
+      "beklenen": 200.0,
+      "gercek": 180.0,
+      "fark": -20.0,
+      "yuzde_fark": -10.0,
+      "birim": "Mn TL",
+      "durum": "KÖTÜ"
+    },
+    {
+      "metrik": "Net Kar",
+      "beklenen": 100.0,
+      "gercek": 90.0,
+      "fark": -10.0,
+      "yuzde_fark": -10.0,
+      "birim": "Mn TL",
+      "durum": "KÖTÜ"
+    },
+    {
+      "metrik": "FAVÖK Marjı",
+      "beklenen": 20.0,
+      "gercek": 17.1,
+      "fark": -2.9,
+      "yuzde_fark": -14.5,
+      "birim": "%",
+      "durum": "ÇOK KÖTÜ"
+    },
+    {
+      "metrik": "Net Marj",
+      "beklenen": 10.0,
+      "gercek": 8.6,
+      "fark": -1.4,
+      "yuzde_fark": -14.0,
+      "birim": "%",
+      "durum": "ÇOK KÖTÜ"
+    }
+  ],
+  "ozet": "TEST.IS: Genel olarak beklentinin altında. 4 metrikte beklemeyen sonuç."
+}

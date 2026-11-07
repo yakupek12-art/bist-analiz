@@ -1,0 +1,39 @@
+{
+  "sirket": "TUPRS",
+  "moat_skoru": 75,
+  "moat_durumu": "HENDEKLİ",
+  "metrikler": {
+    "yil": [2019, 2020, 2021, 2022, 2023, 2024],
+    "brut_marj": [0.08, 0.02, 0.15, 0.22, 0.18, 0.16],
+    "favok_marj": [0.12, 0.05, 0.18, 0.28, 0.22, 0.20],
+    "net_marj": [0.028, -0.015, 0.027, 0.044, 0.031, 0.025],
+    "pazar_payi": [0.62, 0.65, 0.63, 0.65, 0.64, 0.65],
+    "fiyatlama_gucu": [0.75, 0.60, 0.85, 0.95, 0.85, 0.80],
+    "gecis_maliyeti": [8.5, 8.5, 9.0, 9.0, 9.0, 9.0]
+  },
+  "kriz_performansi": {
+    "2008": {"marj_dusus_pp": 4, "toparlanma_ay": 18, "pazar_payi_degisim": -0.02},
+    "2020": {"marj_dusus_pp": 12, "toparlanma_ay": 15, "pazar_payi_degisim": 0.01},
+    "2022": {"marj_dusus_pp": -8, "toparlanma_ay": 3, "pazar_payi_degisim": 0.02}
+  },
+  "rakip_giris_denemeleri": [
+    {"yil": 2015, "rakip": "SOCAR STAR", "sonuc": "Başarısız - Lisans alınamadı", "bariyer": "İzin/Çevre"},
+    {"yil": 2018, "rakip": "STAR Rafineri", "sonuc": "Kuruldu - Pazar payı %3", "bariyer": "Yüksek sermaye/İzin"},
+    {"yil": 2022, "rakip": "BP/TOTAL Giriş Girişimi", "sonuc": "İptal - Kriz sonrası", "bariyer": "Maliyet/Ekonomik"}
+  ],
+  "hendek_skoru": 75,
+  "hendek_durumu": "HENDEKLİ",
+  "guclu_yanlar": [
+    "Yüksek giriş bariyeri (Sermaye, İzin, Lojistik)",
+    "Maliyet avantajı (Entegre rafineri, kendi elektrik)",
+    "Lojistik moat (Liman, Boru hattı, Depolama)",
+    "Devlet stratejik desteği (%65-70 pazar payı garantisi)",
+    "Entegre operasyon (Kendi elektrik, suya, buhar)"
+  ],
+  "zayif_yanlar": [
+    "Petrol/Kur duyarlılığı",
+    "Yüksek borç yükü (Net Borç/FAVÖK 1.8x)",
+    "TL kur riski (Borç %57 USD, Gelir TL)",
+    "İhale bağımlılığı (%35 ciro)"
+  ]
+}

@@ -1,0 +1,36 @@
+TUPRS Kriz Dönemleri Performansı:
+
+2008 Global Finansal Kriz:
+- Ciro: -18% (2008-2009)
+- Net Kar: -45% (2008: 1.2 Mrd TL -> 2009: 650 Mn TL)
+- FAVÖK Marjı: %12 -> %8
+- Nakit Akışı: Pozitif (Operasyonel)
+- Toparlanma: 2010 Q2'ye kadar (18 ay)
+
+2014-2015 Petrol Fiyatı Çöküşü:
+- Brent $115 -> $30 (2014 H2-2015)
+- Raffineri Marjı: $12/bbl -> $4/bbl
+- Net Kar: 2014: 2.1 Mrd TL -> 2015: 3.2 Mrd TL (Hedge etkisi)
+- Stok Değer Kaybı: ~800 Mn TL
+- Toparlanma: 2016 Q1 (9 ay)
+
+2020 COVID-19 Pandemisi:
+- Talep: Uçak yakıtı %70, Benzin %40, Dizel %25 düştü
+- Raffineri Kullanım Oranı: %95 -> %65
+- 2020 Net Zarar: -2.1 Mrd TL (İlk yıllık zarar)
+- Nakit Pozisyonu: 15 Mrd TL -> 8 Mrd TL
+- Devlet Desteği: Kredi garanti, vergi erteleme
+- Toparlanma: 2021 Q3 (15 ay) - H2 2021 karlı
+
+2022 Rusya-Ukrayna Savaşı / Enerji Krizi:
+- Petrol $120+, Raffineri Marjı $25+/bbl (Rekor)
+- 2022 Net Kar: 28.5 Mrd TL (Rekor)
+- Avrupa rafineri kapanışları -> TÜPRAŞ avantaj
+- TL Değer Kaybı: 2022 TL/USD 13.5 -> 18.7 (+38%)
+- Net Borç/FAVÖK: 3.2x -> 1.8x (İyileşme)
+
+2023 Normalleşme:
+- Raffineri Marjı normalleşme: $25 -> $12/bbl
+- Net Kar: 28.5 Mrd -> 18.2 Mrd TL
+- TL Değer Kaybı devam: USD/TRY 26.5
+- Nakit akışı güçlü: CFO 25 Mrd TL

@@ -1,0 +1,55 @@
+{
+  "sembol": "TUPRS",
+  "veri": {
+    "hacim_profili": {
+      "poc": 185.50,
+      "vah": 195.20,
+      "val": 175.80,
+      "mevcut_fiyat_vs_poc": "ALTINDA",
+      "son_20_gun_ort_hacim": 12.5,
+      "mevcut_hacim_vs_ortalama": 0.85
+    },
+    "fibonacci_seviyeler": {
+      "yuksek_52h": 215.00,
+      "dusuk_52h": 145.00,
+      "seviyeler": {
+        "0": 145.00,
+        "23.6": 161.54,
+        "38.2": 171.78,
+        "50": 180.00,
+        "61.8": 188.22,
+        "78.6": 199.54,
+        "100": 215.00,
+        "161.8": 237.70,
+        "261.8": 263.20
+      }
+    },
+    "destekler": [
+      {"seviye": "Destek 1 (Kritik)", "fiyat": 145.00, "tip": "52 Hafta Dipi", "gucluk": "Güçlü"},
+      {"seviye": "Destek 2", "fiyat": 161.54, "tip": "Fib 23.6%", "gucluk": "Orta"},
+      {"seviye": "Destek 3", "fiyat": 171.78, "tip": "Fib 38.2%", "gucluk": "Güçlü"},
+      {"seviye": "Destek 4", "fiyat": 180.00, "tip": "Fib 50% + Psikolojik", "gucluk": "Çok Güçlü"}
+    ],
+    "direnc": [
+      {"seviye": "Direnç 1", "fiyat": 185.50, "tip": "Mevcut Fiyat / SMA20", "gucluk": "Orta"},
+      {"seviye": "Direnç 2", "fiyat": 195.20, "tip": "VAH / Fib 23.6% Yukarı", "gucluk": "Güçlü"},
+      {"seviye": "Direnç 3", "fiyat": 215.00, "tip": "52 Hafta Tepe / Psikolojik", "gucluk": "Çok Güçlü"}
+    ],
+    "giris_bolgeleri": [
+      {"bolge": "Bölge 1 (Agresif)", "aralik_alt": 145.00, "aralik_ust": 155.00, "pozisyon_yuzde": 30, "sebep": "52H Dip + RSI<35 + Hacim artışı", "oncelik": 1},
+      {"bolge": "Bölge 2 (Standart)", "aralik_alt": 165.00, "aralik_ust": 175.00, "pozisyon_yuzde": 40, "sebep": "Fib 38.2-50% + Trend çizgisi", "oncelik": 2},
+      {"bolge": "Bölge 3 (Güvenli)", "aralik_alt": 175.00, "aralik_ust": 180.00, "pozisyon_yuzde": 30, "sebep": "Fib 50-61.8% + Hacim onayı", "oncelik": 3}
+    ],
+    "cikis_bolgeleri": [
+      {"bolge": "Kismi Kar Alımı 1", "aralik_alt": 195.00, "aralik_ust": 205.00, "pozisyon_yuzde": 30, "sebep": "VAH + RSI >70"},
+      {"bolge": "Kismi Kar Alımı 2", "aralik_alt": 210.00, "aralik_ust": 220.00, "pozisyon_yuzde": 40, "sebep": "Extension 161.8% + Hacim azalma"},
+      {"bolge": "Tam Çıkış (Stop)", "fiyat": 140.00, "pozisyon_yuzde": 100, "sebep": "Destek 1 kirilimi + Günlük kapanış altındaysa"}
+    ],
+    "stop_loss": 140.00,
+    "entry": 165.00,
+    "target1": 195.00,
+    "target2": 215.00,
+    "rr": 2.8,
+    "kelly": 0.12
+  }
+}
